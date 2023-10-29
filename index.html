@@ -73,6 +73,82 @@
     <li><a href="halls/neon.html">Neon style</a></li>
   </ol>
 
+  <h3>Забронировать</h3>
+
+  <form action="https://jsonplaceholder.typicode.com/posts">
+    <fieldset>
+      <input type="radio" id="room_1" value="80's vibes">
+      <label for="room_1">80's vibes</label>
+      <input type="radio" id="room_2" value="Star wars">
+      <label for="room_2">Star wars</label>
+      <input type="radio" id="room_3" value="Wild west">
+      <label for="room_3">Wild west</label>
+      <input type="radio" id="room_4" value="Neon style">
+      <label for="room_4">Neon style</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Собери набор развлечений</legend>
+
+      <fieldset>
+        <legend>Приставка:</legend>
+        <input type="radio" id="console_1" value="PlayStation">
+        <label for="console_1">PlayStation</label>
+        <input type="radio" id="console_2" value="Sega Mega Drive">
+        <label for="console_2">Sega Mega Drive</label>
+        <input type="radio" id="console_3" value="X-box One X">
+        <label for="console_3">X-box One X</label>
+        <input type="radio" id="console_4" value="Dendy">
+        <label for="console_4">Dendy</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Настольные игры:</legend>
+        <input type="checkbox" id="table_game_1" value="Jenga">
+        <label for="table_game_1">Jenga</label>
+        <input type="checkbox" id="table_game_2" value="Monopoly">
+        <label for="table_game_2">Monopoly</label>
+        <input type="checkbox" id="table_game_3" value="Манчкин">
+        <label for="table_game_3">Манчкин</label>
+        <input type="checkbox" id="table_game_4" value="Alias">
+        <label for="table_game_4">Alias</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Дополнительно:</legend>
+        <input type="checkbox" id="other_1" value="Караоке">
+        <label for="other_1">Караоке</label>
+        <input type="checkbox" id="other_2" value="VR">
+        <label for="other_2">VR</label>
+      </fieldset>
+    </fieldset>
+
+    <fieldset>
+      <label for="date">Дата*</label>
+      <input type="date" id="date" value="Дата" required>
+      <label for="time">Время*</label>
+      <input type="time" id="time" value="Время" required>
+      <br>
+      <label for="people">Количество человек*</label>
+      <input type="text" id="people" value="" required>
+      <br>
+      <label for="first_name">Имя*</label>
+      <input type="text" id="first_name" value="" required>
+      <br>
+      <label for="second_name">Фамилия*</label>
+      <input type="text" id="second_name" value="" required>
+      <br>
+      <label for="phone">Номер телефона*</label>
+      <input type="text" id="phone" value="" required>
+      <br>
+      <input type="checkbox" id="phone" value="" required>
+      <label for="phone">Я старше 18 лет</label>
+    </fieldset>
+    <button formtarget="_blank">Забронировать</button>
+    <input type="checkbox" id="examination" required>
+    <label for="examination">Согласен на обработку данных</label>
+  </form>
+
   <h3>О нас</h3>
 
   <p>Для наших гостей мы создали <i>концептуально новое игровое пространство виртуальной реальности</i> в центральной части города</p>
