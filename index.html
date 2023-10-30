@@ -75,15 +75,16 @@
 
   <h3>Забронировать</h3>
 
-  <form action="https://jsonplaceholder.typicode.com/posts">
+  <form action="https://jsonplaceholder.typicode.com/posts" method="post">
+
     <fieldset>
-      <input type="radio" id="room_1" value="80's vibes">
+      <input type="radio" id="room_1" value="80's vibes" name="room">
       <label for="room_1">80's vibes</label>
-      <input type="radio" id="room_2" value="Star wars">
+      <input type="radio" id="room_2" value="Star wars" name="room">
       <label for="room_2">Star wars</label>
-      <input type="radio" id="room_3" value="Wild west">
+      <input type="radio" id="room_3" value="Wild west" name="room">
       <label for="room_3">Wild west</label>
-      <input type="radio" id="room_4" value="Neon style">
+      <input type="radio" id="room_4" value="Neon style" name="room">
       <label for="room_4">Neon style</label>
     </fieldset>
 
@@ -92,33 +93,33 @@
 
       <fieldset>
         <legend>Приставка:</legend>
-        <input type="radio" id="console_1" value="PlayStation">
+
+        <input type="radio" id="console_1" value="PlayStation" name="consols">
         <label for="console_1">PlayStation</label>
-        <input type="radio" id="console_2" value="Sega Mega Drive">
+
+        <input type="radio" id="console_2" value="Sega Mega Drive" name="consols">
         <label for="console_2">Sega Mega Drive</label>
-        <input type="radio" id="console_3" value="X-box One X">
+
+        <input type="radio" id="console_3" value="X-box One X" name="consols">
         <label for="console_3">X-box One X</label>
-        <input type="radio" id="console_4" value="Dendy">
+
+        <input type="radio" id="console_4" value="Dendy" name="consols">
         <label for="console_4">Dendy</label>
       </fieldset>
 
       <fieldset>
         <legend>Настольные игры:</legend>
-        <input type="checkbox" id="table_game_1" value="Jenga">
-        <label for="table_game_1">Jenga</label>
-        <input type="checkbox" id="table_game_2" value="Monopoly">
-        <label for="table_game_2">Monopoly</label>
-        <input type="checkbox" id="table_game_3" value="Манчкин">
-        <label for="table_game_3">Манчкин</label>
-        <input type="checkbox" id="table_game_4" value="Alias">
-        <label for="table_game_4">Alias</label>
+        <input type="checkbox" id="check1" value="Jenga" name="games"><label for="check1">Jenga</label>
+        <input type="checkbox" id="check2" value="Monopoly" name="games"><label for="check2">Monopoly</label>
+        <input type="checkbox" id="check3" value="Манчкин" name="games"><label for="check3">Манчкин</label>
+        <input type="checkbox" id="check4" value="Alias" name="games"><label for="check4">Alias</label>
       </fieldset>
 
       <fieldset>
         <legend>Дополнительно:</legend>
-        <input type="checkbox" id="other_1" value="Караоке">
+        <input type="checkbox" id="other_1" value="Караоке" name="other">
         <label for="other_1">Караоке</label>
-        <input type="checkbox" id="other_2" value="VR">
+        <input type="checkbox" id="other_2" value="VR" name="other">
         <label for="other_2">VR</label>
       </fieldset>
     </fieldset>
@@ -127,32 +128,32 @@
       <legend>Выбери дату и время</legend>
 
       <label for="date">Дата*</label>
-      <input type="date" id="date" value="Дата" required>
+      <input type="date" id="date" value="Дата" name="order" required>
 
       <label for="time">Время*</label>
-      <input type="time" id="time" value="Время" required>
+      <input type="time" id="time" value="Время" name="order" required>
       <br>
 
       <label for="people">Количество человек*</label>
-      <input type="text" id="people" value="" required>
+      <input type="text" id="people" value="" name="order" required>
       <br>
 
       <label for="first_name">Имя*</label>
-      <input type="text" id="first_name" value="" required>
+      <input type="text" id="first_name" value="" name="order" required>
       <br>
 
       <label for="second_name">Фамилия*</label>
-      <input type="text" id="second_name" value="" required>
+      <input type="text" id="second_name" value="" name="order" required>
       <br>
 
       <label for="phone">Номер телефона*</label>
-      <input type="text" id="phone" value="" required>
+      <input type="text" id="phone" value="" name="order" required>
       <br>
 
-      <input type="checkbox" id="phone" value="" required>
-      <label for="phone">Я старше 18 лет</label>
+      <input type="checkbox" id="confirmation" value="" required>
+      <label for="confirmation">Я старше 18 лет</label>
     </fieldset>
-    <button formtarget="_blank">Забронировать</button>
+    <button type="submit" formtarget="_blank">Забронировать</button>
     <input type="checkbox" id="examination" required>
     
     <label for="examination">Согласен на обработку данных</label>
