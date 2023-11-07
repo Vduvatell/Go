@@ -5,15 +5,13 @@
   font-size: 24px;
   padding: 30px 70px;
   margin-bottom: 20px;
-  background-image: url(../img/open-purple.svg);
-  background-repeat: no-repeat;
-  background-size: 5%;
 }
 
 .faq__questions li:nth-child(2n+2) {
   color: #fff;
   background: #440F51;
-  background-image: url(../img/open.svg);
-  background-repeat: no-repeat;
-  background-size: 5%;
+}
+
+.faq img {
+  width: 50px;
 }
