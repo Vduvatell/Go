@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1B1A1B;
+  color: #FFFFFF;
+}
+
+.about {
+  text-transform: uppercase;
+}
+
+.wrapper {
+  width: 1200px;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+
+
+
+.figureImg{
+  display: inline-block;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+.figureImg img{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+
+}
+.rev ul, .faq ul{
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
