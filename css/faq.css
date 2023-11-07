@@ -22,6 +22,7 @@
 }
 
 .faq__questions li:nth-child(2n+2):after{
+  content: "";
   background-image: url(../img/open.svg);
 }
 
