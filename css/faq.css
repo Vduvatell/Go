@@ -24,3 +24,11 @@
 .faq__questions li:nth-child(2n+2):after{
   background-image: url(../img/open.svg);
 }
+
+
+
+.faq__questions li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
