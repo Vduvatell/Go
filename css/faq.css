@@ -7,7 +7,7 @@
   margin-bottom: 20px;
 }
 
-.faq__questions li:nth-child(2n+2) {
+.faq__questions li:nth-child(even) {
   color: #fff;
   background: #440F51;
 }
@@ -21,7 +21,7 @@
   background-size: cover;
 }
 
-.faq__questions li:nth-child(2n+2):after{
+.faq__questions li:nth-child(even):after{
   content: "";
   background-image: url(../img/open.svg);
 }
