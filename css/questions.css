@@ -1,0 +1,12 @@
+.questions {
+  padding-bottom: 100px;
+  margin: 0;
+}
+
+.questions__list {
+  margin-bottom: 0;
+}
+
+.questions__item-last {
+  margin: 0;
+}
