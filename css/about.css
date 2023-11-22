@@ -24,6 +24,7 @@
 
 .about__quote {
   display: inline-block;
+  width: 100%;
   margin: 0;
 }
 
@@ -53,7 +54,14 @@
   padding-left: 16px;
 }
 
+.about__quote-autor {
+  float: right;
+  width: 390px;
+  margin: 0;
+}
+
 .about__quote-img {
+  position: absolute;
   object-fit: cover;
   width: 80px;
   height: 80px;
@@ -61,9 +69,9 @@
   object-position: 50% 30%;
 }
 
-.about__quote-autor {
+.about__quote-signature {
   float: right;
-  max-width: 290px;
+  width: 290px;
   display: block;
   font-size: 20px;
   font-weight: 400;
