@@ -14,6 +14,12 @@
 .rooms__item {
   position: relative;
   margin-bottom: 60px;
+  width: 1180px;
+  height: 710px;
+}
+
+.rooms__item:last-child {
+  margin-bottom: 0;
 }
 
 .rooms__text {
@@ -30,24 +36,16 @@
 
 .rooms__item-vibes {
   background-image: url(../img/Rooms/vibes-room.jpg);
-  width: 1180px;
-  height: 710px;
 }
 
 .rooms__item-wars {
   background-image: url(../img/Rooms/wars-room.jpg);
-  width: 1180px;
-  height: 710px;
 }
 
 .rooms__item-west {
   background-image: url(../img/Rooms/west-room.jpg);
-  width: 1180px;
-  height: 710px;
 }
 
 .rooms__item-neon {
   background-image: url(../img/Rooms/neon-room.jpg);
-  width: 1180px;
-  height: 710px;
 }

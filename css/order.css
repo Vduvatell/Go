@@ -1,0 +1,14 @@
+.order__title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.final__button {
+  background-color: #fff;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
