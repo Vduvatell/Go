@@ -116,6 +116,6 @@ main, footer {
   margin: 0 auto;
 }
 
-section {
-  padding-bottom: 100px;
+section:not(:first-child){
+  padding: 50px 0;
 }
