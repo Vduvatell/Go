@@ -110,7 +110,7 @@ iframe {
 Чтобы контент не прижимался к краям экрана
 */
 
-main, footer {
+.container {
   max-width: 1240px;
   padding: 0 30px;
   margin: 0 auto;

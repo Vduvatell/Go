@@ -1,6 +1,6 @@
 .contacts {
   font-weight: 700;
-  padding-bottom: 50px;
+  padding: 50px 0;
 }
 
 .contacts__title {
@@ -9,7 +9,7 @@
   font-size: 40px;
   line-height: 50px;
   text-transform: uppercase;
-  margin-bottom: 54px;
+  padding-bottom: 54px;
 }
 
 .contacts__address {
@@ -27,19 +27,15 @@
 }
 
 .contacts__address-city {
-  margin-bottom: 38px;
+  padding-bottom: 38px;
 }
 
 .contacts__address-number {
-  margin-bottom: 11px;  
+  padding-bottom: 11px;  
 }
 
 .contacts__address-mail {
-  margin-bottom: 39px;
-}
-
-.contacts__logo {
-  margin: 0;
+  padding-bottom: 39px;
 }
 
 .contacts__logo-inner{
@@ -47,11 +43,11 @@
 }
 
 .contacts__inner-two {
-  margin: 0 26px 0 26px;
+  padding: 0 26px 0 26px;
 }
 
 .contacts__inner-three {
-  margin-right: 26px;
+  padding-right: 26px;
 }
 
 .contacts__address-img {
