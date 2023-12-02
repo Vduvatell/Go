@@ -34,18 +34,18 @@
   left: 485px;
 }
 
-.rooms__item-vibes {
+.rooms__item_vibes {
   background-image: url(../img/Rooms/vibes-room.jpg);
 }
 
-.rooms__item-wars {
+.rooms__item_wars {
   background-image: url(../img/Rooms/wars-room.jpg);
 }
 
-.rooms__item-west {
+.rooms__item_west {
   background-image: url(../img/Rooms/west-room.jpg);
 }
 
-.rooms__item-neon {
+.rooms__item_neon {
   background-image: url(../img/Rooms/neon-room.jpg);
 }

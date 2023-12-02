@@ -20,43 +20,43 @@
   text-decoration: none;
 }
 
-.contacts__address-text {
+.address__text {
   display: inline-block;
   vertical-align: middle;
   margin: 0;
 }
 
-.contacts__address-city {
+.address__city {
   padding-bottom: 38px;
 }
 
-.contacts__address-number {
+.address__number {
   padding-bottom: 11px;  
 }
 
-.contacts__address-mail {
+.address__mail {
   padding-bottom: 39px;
 }
 
-.contacts__logo-inner{
+.logo__inner{
   display: inline-block;
 }
 
-.contacts__inner-two {
+.logo__inner_two {
   padding: 0 26px 0 26px;
 }
 
-.contacts__inner-three {
+.logo__inner_three {
   padding-right: 26px;
 }
 
-.contacts__address-img {
+.address__img {
   display: inline-block;
   margin-right: 30px;
   vertical-align: middle;
 }
 
-.contacts-href {
+.address__href {
   text-decoration: none;
   color: #fff;
 }
