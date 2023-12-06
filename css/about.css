@@ -25,7 +25,7 @@
   margin: 0;
 }
 
-.quote__text {
+.about__quote-text {
   font-size: 44px;
   font-weight: 400;
   line-height: 50px;
@@ -34,7 +34,7 @@
   margin: 0;
 }
 
-.quote__decor {
+.about__quote-decor {
   color: #6C0287;
   font-size: 44px;
   font-weight: 900;
@@ -43,21 +43,21 @@
 }
 
 
-.quote__inner {
+.about__quote-inner {
   padding-left: 50px;
 }
 
-.quote__bold {
+.about__quote-bold {
   padding-left: 16px;
 }
 
-.quote__autor {
+.about__quote-autor {
   float: right;
   width: 390px;
   margin: 0;
 }
 
-.quote__img {
+.about__quote-img {
   display: inline-block;
   object-fit: cover;
   width: 80px;
@@ -66,7 +66,7 @@
   object-position: 50% 30%;
 }
 
-.quote__signature {
+.about__quote-signature {
   float: right;
   width: 280px;
   display: block;

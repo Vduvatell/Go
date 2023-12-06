@@ -1,25 +1,3 @@
-/* .wrapper {
-  width: 1200px;
-  margin: 0 auto;
-}
-
-
-
-
-.figureImg{
-  display: inline-block;
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
-}
-.figureImg img{
-  width:100%;
-  height:100%;
-  object-fit: cover;
-
-}
-*/
-
 html {
   position: relative;
   box-sizing: border-box;
