@@ -4,7 +4,18 @@
   font-weight: 700;
   line-height: 50px;
   text-transform: uppercase;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
+}
+
+.about__img {
+  display: inline-block;
+  margin-right: 75px;
+}
+
+.about__block {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 500px;
 }
 
 .about__text {
@@ -16,16 +27,18 @@
 
 .about__text2 {
   margin: 0;
-  padding-bottom: 78px;
+  padding-bottom: 48px;
 }
 
 .about__quote {
   display: inline-block;
+  vertical-align: top;
   width: 100%;
   margin: 0;
 }
 
 .about__quote-text {
+  position: relative;
   font-size: 44px;
   font-weight: 400;
   line-height: 50px;
@@ -42,13 +55,16 @@
   text-transform: uppercase;
 }
 
-
-.about__quote-inner {
-  padding-left: 50px;
+.about__quote-block {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 150px;
+  float: left;
 }
 
-.about__quote-bold {
-  padding-left: 16px;
+.about__quote-inner {
+  position: relative;
+  top: 9px;
 }
 
 .about__quote-autor {
