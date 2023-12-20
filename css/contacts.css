@@ -1,6 +1,5 @@
 .contacts {
   font-weight: 700;
-  padding: 50px 0;
 }
 
 .contacts__title {
@@ -9,7 +8,7 @@
   font-size: 40px;
   line-height: 50px;
   text-transform: uppercase;
-  padding-bottom: 54px;
+  margin-bottom: 54px;
 }
 
 .contacts__address {
@@ -27,27 +26,23 @@
 }
 
 .contacts__address-city {
-  padding-bottom: 38px;
+  margin-bottom: 38px;
 }
 
 .contacts__address-number {
-  padding-bottom: 11px;  
+  margin-bottom: 11px;  
 }
 
 .contacts__address-mail {
-  padding-bottom: 39px;
+  margin-bottom: 39px;
 }
 
 .contacts__logo-inner{
   display: inline-block;
 }
 
-.contacts__logo-inner_two {
-  padding: 0 26px 0 26px;
-}
-
-.contacts__logo-inner_three {
-  padding-right: 26px;
+.contacts__logo-inner:not(:last-child) {
+  margin-right: 21px;
 }
 
 .contacts__address-img {

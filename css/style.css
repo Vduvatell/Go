@@ -94,6 +94,6 @@ iframe {
   margin: 0 auto;
 }
 
-section:not(:first-child){
-  padding: 50px 0;
+section{
+  margin-bottom: 100px;
 }
