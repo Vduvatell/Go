@@ -7,10 +7,6 @@
   text-transform: uppercase;
 }
 
-.questions {
-  margin-bottom: 100px;
-}
-
 .questions__item {
   background-color: #fff;
   color: #1c1a1a;

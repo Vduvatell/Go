@@ -13,25 +13,31 @@
 
 .rooms__item {
   position: relative;
-  margin-bottom: 60px;
-  width: 1180px;
-  height: 710px;
+  display: inline-block;
+  margin-right: 15px;
+  margin-bottom: 20px;
+  width: 580px;
+  height: 349px;
 }
 
-.rooms__item:last-child {
+.rooms__item:nth-child(2n) {
+  margin-right: 0;
+}
+
+.rooms__item:nth-last-child(-n+2) {
   margin-bottom: 0;
 }
 
 .rooms__text {
-  position: absolute;
+  position: relative;
   font-size: 70px;
   line-height: 80px;
   color: #fff;
   text-decoration: none;
-  text-align: center;
-  top: 275px;
-  right: 485px;
-  left: 485px;
+  top: 135px;
+  right: 103px;
+  bottom: 134px;
+  left: 103px;
 }
 
 .rooms__item_vibes {
