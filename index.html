@@ -9,80 +9,104 @@
     <title>Methed—homework</title>
   </head>
   <body>
+    <header>
+      <div class="container container_menu">
+        <menu class="menu">
+
+          <img class="menu-logo logo" src="img/logo-white.svg" alt="Логотип из букв G и O" />
+    
+          <ul class="menu__list">
+            <li class="menu__item"><a href="#rooms">Залы</a></li>
+            <li class="menu__item"><a href="#about">О нас</a></li>
+            <li class="menu__item"><a href="#order">Бронь</a></li>
+            <li class="menu__item"><a href="#reviews">Отзывы</a></li>
+            <li class="menu__item"><a href="#contacts">Контакты</a></li>
+          </ul>
+          <button class="menu__button">Заказать звонок</button>
+        </menu>
+      </div>
+    </header>
+
+
     <main class="main">
       <section class="title">
         <div class="container">
           <div class="banner">
             <h1 class="title__h1">Game over</h1>
             <p class="title__text">Новый формат игр и отдыха</p>
+
+            <div class="title__novelty novelty">
+              <div class="novelty__item novelty__item1">
+                <span class="novelty__span novelty__span1">4</span>
+                <span class="novelty__text">Тематческих зала</span>
+              </div>
+
+              <div class="novelty__item novelty__item2">
+                <span class="novelty__span novelty__span2">new</span>
+                <span class="novelty__text">Новейшая аппаратура</span>
+              </div>
+            </div>
+
+            <button class="banner__order">Забронировать</button>
+
+            <button class="tittle__down-arrow"></button>
           </div>
         </div>
       </section>
 
 
-      <!-- <img src="img/logo.svg" alt="Логотип из букв G и O" />
-      <section class="menu">
-        <h2 class="menu__title">Меню</h2>
-
-        <ul class="menu__list">
-          <li class="menu__item"><a href="#rooms">Залы</a></li>
-          <li class="menu__item"><a href="#about">О нас</a></li>
-          <li class="menu__item"><a href="#order">Бронь</a></li>
-          <li class="menu__item"><a href="#reviews">Отзывы</a></li>
-          <li class="menu__item"><a href="#contacts">Контакты</a></li>
-        </ul>
-      </section>
-
 
       <section class="we-have">
-        <h2 class="we-have__title">У нас есть все для классного отдыха с друзьями!</h2>
+        <div class="container">
+          <h2 class="we-have__title">У нас есть все для классного отдыха с друзьями!</h2>
 
-        <ul class="we-have__list">
-          <li class="we-have__item">
-            <figure>
-              <img src="img/We have/vr.jpg" alt="VR очки" />
-              <figcaption>VR очки</figcaption>
-            </figure>
-          </li>
+          <ul class="we-have__list">
+            <li class="we-have__item">
+              <figure class="we-have__block">
+                <img class="we-have__img" src="img/We have/vr.jpg" alt="VR очки">
+                <figcaption class="we-have__text">VR очки</figcaption>
+              </figure>
+            </li>
 
-          <li class="we-have__item">
-            <figure>
-              <img src="img/We have/audio.jpg" alt="VR очки" />
-              <figcaption>Аудио-система 5.1 с отличным звуком</figcaption>
-            </figure>
-          </li>
+            <li class="we-have__item">
+              <figure class="we-have__block">
+                <img class="we-have__img" src="img/We have/audio.jpg" alt="Аудио-система">
+                <figcaption class="we-have__text">Аудио-система 5.1 <br> с отличным звуком</figcaption>
+              </figure>
+            </li>
 
-          <li class="we-have__item">
-            <figure>
-              <img src="img/We have/micro.jpg" alt="VR очки" />
-              <figcaption>Караоке (4 микрофона)</figcaption>
-            </figure>
-          </li>
+            <li class="we-have__item">
+              <figure class="we-have__block">
+                <img class="we-have__img" src="img/We have/micro.jpg" alt="Караоке">
+                <figcaption class="we-have__text">Караоке (4 микрофона)</figcaption>
+              </figure>
+            </li>
 
-          <li class="we-have__item">
-            <figure>
-              <img src="img/We have/game.jpg" alt="VR очки" />
-              <figcaption>Настольные игры</figcaption>
-            </figure>
-          </li>
+            <li class="we-have__item">
+              <figure class="we-have__block">
+                <img class="we-have__img" src="img/We have/game.jpg" alt="Настольные игры">
+                <figcaption class="we-have__text">Настольные игры</figcaption>
+              </figure>
+            </li>
 
-          <li class="we-have__item">
-            <figure>
-              <img src="img/We have/netflix.jpg" alt="VR очки" />
-              <figcaption>
-                Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko
-              </figcaption>
-            </figure>
-          </li>
+            <li class="we-have__item">
+              <figure class="we-have__block">
+                <img class="we-have__img" src="img/We have/netflix.jpg" alt="Кино сервисы">
+                <figcaption class="we-have__text">
+                  Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko
+                </figcaption>
+              </figure>
+            </li>
 
-          <li class="we-have__item">
-            <figure>
-              <img src="img/We have/sony.jpg" alt="VR очки" />
-              <figcaption>PlayStation 5</figcaption>
-            </figure>
-          </li>
-        </ul>
-      </section> -->
+            <li class="we-have__item">
+              <figure class="we-have__block">
+                <img class="we-have__img" src="img/We have/sony.jpg" alt="Игровая консоль">
+                <figcaption class="we-have__text">PlayStation 5</figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
+      </section>
 
 
       <section id="rooms" class="rooms">
@@ -109,7 +133,7 @@
 
       <section id="order" class="order">
         <div class="container">
-          <h2 class="order__title">Забронировать</h2>
+          <h2 class="order__title">Забронировать зал просто</h2>
 
           <form class="order__form" action="https://jsonplaceholder.typicode.com/posts" method="post">
 
@@ -400,6 +424,18 @@
               </li>
             </ul>
           </address>
+        </div>
+      </section>
+
+      <section class="copyright">
+        <div class="container">
+          <div class="copyright__item">
+            <p class="copyright__info" href="">© Game Over, 2022</p>
+            <div class="copyright__autor">
+              <p class="copyright__design">Design by Anastasia Ilina</p>
+              <a class="copyright__mail" href="">ilina9825@gmail.com</a>
+            </div>
+          </div>
         </div>
       </section>
     </footer>

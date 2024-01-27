@@ -2,6 +2,10 @@
 
 @import "style.css";
 
+@import "menu.css";
+
+@import "we-have.css";
+
 @import "rooms.css";
 
 @import "title.css";
@@ -15,3 +19,5 @@
 @import "order.css";
 
 @import "reviews.css";
+
+@import "copyright.css"

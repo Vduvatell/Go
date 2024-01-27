@@ -90,10 +90,14 @@ iframe {
 
 .container {
   max-width: 1240px;
-  padding: 0 30px;
+  padding-inline: 30px;
   margin: 0 auto;
 }
 
 section{
   padding: 50px 0 ;
+}
+
+footer {
+  background: linear-gradient(180deg, #1B1A1B 0%, #370A37 100%);
 }

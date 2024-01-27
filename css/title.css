@@ -1,13 +1,9 @@
-.title {
-  padding-top: 150px;
-}
-
 .banner {
   height: 823px;
   position: relative;
 }
 
-.banner::before{
+.banner::before {
   content: "";
   position: absolute;
   background: url(../img/VR-man.png) no-repeat;
@@ -31,4 +27,62 @@
   font-size: 28px;
   font-weight: 400;
   line-height: 50px;
+  margin-bottom: 30px;
+}
+
+.novelty {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 150px;
+}
+
+.novelty__item {
+  max-width: 193px;
+  text-align: center;   
+}
+
+.novelty__item1 {
+  margin-right: 40px;
+}
+
+.novelty__span {
+  font-weight: 900;
+  color: #CD06FF;
+}
+
+.novelty__span1 {
+  min-height: 141px;
+  font-size: 100px;
+  align-self: center;
+}
+
+.novelty__span2 {
+  font-variant: small-caps;
+  font-size: 75px;
+}
+
+.novelty__text {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.banner__order {
+  display: inline-block;
+  margin-right: 165px;
+  color: #fff;
+  font-size: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 25px 69px;
+  border-radius: 10px;
+  background-color: #6C0287;
+}
+
+.tittle__down-arrow::before {
+  content: "";
+  background-image: url(../img/title-arrow.png);
+  width: 97px;
+  height: 97px;
+  position: absolute;
+  /* bottom: 90; */
 }

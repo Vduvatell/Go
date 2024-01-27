@@ -1,0 +1,15 @@
+.copyright__item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.copyright__design {
+  margin-bottom: 6px;
+}
+
+.copyright__mail {
+  display: flex;
+  justify-content: flex-end;
+}
