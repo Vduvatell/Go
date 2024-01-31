@@ -1,0 +1,50 @@
+.blank {
+  margin-bottom: 40px;
+}
+
+.blank__text {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.time__info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.time__area {
+  width: 134px;
+  height: 52px;
+}
+
+.people__area {
+  width: 300px;
+  height: 52px;
+}
+
+.name__info {
+  width: 280px;
+}
+
+.data__info,
+.time__info {
+  width: 300px;
+}
+
+.name__area {
+  width: 280px;
+  height: 52px;
+}
+
+.data__area {
+  width: 300px;
+  height: 52px;
+}
+
+.info__first-name,
+.info__number {
+  margin-bottom: 14px;
+}

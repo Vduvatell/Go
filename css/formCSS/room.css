@@ -1,0 +1,33 @@
+.room {
+  margin-bottom: 60px;
+}
+
+.form__title {
+  margin-bottom: 40px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.room__text {
+  display: inline-block;
+  text-align: center;
+  width: 250px;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+	cursor: pointer;
+	padding: 7px 15px;
+	line-height: 40px;
+  color: #000;
+  background-color: #FFFFFF;
+	border-radius: 8px;
+}
+
+.room__radio-button {
+  display: none;
+}
+
+.room__radio-button:checked + .room__text {
+	background: #a8a8a8;
+}

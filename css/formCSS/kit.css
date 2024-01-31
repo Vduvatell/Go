@@ -1,0 +1,52 @@
+.kit {
+  margin-bottom: 67px;
+}
+
+.kit__subwrapper {
+  max-width: 300px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.kit__title {
+  margin-bottom: 40px;
+}
+
+.kit__subtitle {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-bottom: 24px;
+}
+
+.console__text,
+.game__text,
+.other__text {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.console__radio-button {
+  width: 27px;
+  height: 27px;
+}
+
+.game__radio-button,
+.other__checkbox-button {
+  width: 25px;
+  height: 25px;
+}
+
+.console__item:not(:last-child) {
+  margin-bottom: 22px;
+}
+
+.game__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.other__item:not(:last-child) {
+  margin-bottom: 24px;
+}

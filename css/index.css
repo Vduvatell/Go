@@ -16,8 +16,14 @@
 
 @import "questions.css";
 
-@import "order.css";
-
 @import "reviews.css";
 
-@import "copyright.css"
+@import "copyright.css";
+
+@import url(formCSS/global.css);
+
+@import url(formCSS/room.css);
+
+@import url(formCSS/kit.css);
+
+@import url(formCSS/blank.css);
