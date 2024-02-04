@@ -1,5 +1,7 @@
 .blank {
   margin-bottom: 40px;
+  justify-content: center;
+  gap: 50px;
 }
 
 .blank__text {
@@ -13,6 +15,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-end;
+  row-gap: 14px;
 }
 
 .time__area {

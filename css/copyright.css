@@ -1,3 +1,7 @@
+.copyright {
+  padding-block: 100px 10px;
+}
+
 .copyright__item {
   display: flex;
   justify-content: space-between;

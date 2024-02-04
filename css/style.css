@@ -95,14 +95,10 @@ iframe {
   margin: 0 auto;
 }
 
-.footer section:last-child {
-  padding-block: 100px 10px;
-}
-
-section{
+.section{
   padding: 50px 0 ;
 }
 
-footer {
+.footer {
   background: linear-gradient(180deg, #1B1A1B 0%, #370A37 100%);
 }

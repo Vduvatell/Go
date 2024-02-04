@@ -10,11 +10,16 @@
   margin-bottom: 60px;
 }
 
+.rooms__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
 .rooms__item {
-  position: relative;
-  display: inline-block;
-  margin-right: 15px;
-  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 580px;
   height: 349px;
 }
@@ -28,15 +33,12 @@
 }
 
 .rooms__text {
-  position: relative;
+  max-width: 250px;
+  text-align: center;
   font-size: 70px;
   line-height: 80px;
   color: #fff;
   text-decoration: none;
-  top: 135px;
-  right: 103px;
-  bottom: 134px;
-  left: 103px;
 }
 
 .rooms__item_vibes {

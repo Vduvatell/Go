@@ -1,5 +1,6 @@
 .room {
   margin-bottom: 60px;
+  justify-content: space-between;
 }
 
 .form__title {
