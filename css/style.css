@@ -37,6 +37,9 @@ svg {
   max-height: 100%;
 }
 
+input {
+  outline:none;
+}
 
 button {
   padding: 0;

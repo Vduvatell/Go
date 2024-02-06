@@ -51,3 +51,11 @@
 .info__number {
   margin-bottom: 14px;
 }
+
+.order__input {
+  border: 2px solid transparent;
+}
+
+.order__input:focus {
+  border: 2px solid #CD06FF;
+}
