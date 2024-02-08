@@ -53,3 +53,7 @@
   background-color: #EADEED;
   border: 3px solid transparent;
 }
+
+.radio-button:focus {
+  outline: 1px solid #CD06FF;
+}

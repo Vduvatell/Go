@@ -65,3 +65,20 @@
 .contacts__address_moscow {
   display: block;
 }
+
+.contacts__logo-link {
+  display: block;
+}
+
+.contacts__logo-link:hover {
+  color: #EADEED;
+}
+
+.contacts__logo-link:focus {
+  color: #EADEED;
+  outline: 1px solid #CD06FF;
+}
+
+.contacts__logo-link:active {
+  color: #CD06FF;
+}
