@@ -68,6 +68,7 @@
 
 .contacts__logo-link {
   display: block;
+  transition-duration: 400ms;
 }
 
 .contacts__logo-link:hover {

@@ -28,3 +28,14 @@
   font-weight: 700;
   line-height: 28px;
 }
+
+.we-have__item {
+  transition-duration: 400ms;
+}
+
+.we-have__item:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+}

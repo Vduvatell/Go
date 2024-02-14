@@ -54,6 +54,7 @@
 
 .order__input {
   border: 2px solid transparent;
+  transition-duration: 400ms;
 }
 
 .order__input:focus {

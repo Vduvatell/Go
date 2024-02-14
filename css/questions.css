@@ -21,6 +21,10 @@
   margin-bottom: 20px;
 }
 
+.question__svg {
+  transition-duration: 400ms;
+}
+
 .questions__item:nth-child(odd) .question__svg {
   color: #440f51;
   border: 1px solid #440f51;
