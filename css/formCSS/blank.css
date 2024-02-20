@@ -58,5 +58,6 @@
 }
 
 .order__input:focus {
-  border: 2px solid #CD06FF;
+  border: 2px solid var(--purple-color);
 }
+

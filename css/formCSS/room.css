@@ -21,27 +21,27 @@
   color: #000;
   text-align: center;
   padding: 7px 15px;
-  background-color: #FFFFFF;
+  background-color: var(--main-color);
 	border-radius: 8px;
   transition-duration: 400ms;
 }
 
 .room__text:hover {
-  background-color: #EADEED;
-  border: 3px solid #640AA3;
+  background-color: var(--gray-hover);
+  border: 3px solid var(--purple-active);
   border-radius: 8px;
 }
 
 .room__radio-button:checked + .room__text {
-  background-color: #fff;
-  border: 3px solid #640AA3;
+  background-color: var(--main-color);
+  border: 3px solid var(--purple-active);
   border-radius: 8px;
 }
 
 .room__radio-button:active + .room__text {
-  color: #fff;
-  background-color: #6C0287;
-  border: 3px solid #fff;
+  color: var(--main-color);
+  background-color: var(--purple-hover);
+  border: 3px solid var(--main-color);
   border-radius: 8px;
 }
 

@@ -21,25 +21,25 @@
 }
 
 .menu__button {
-  color: #fff;
+  color: var(--main-color);
   font-size: 22px;
   font-weight: 700;
   line-height: 30px;
   text-transform: uppercase;
   padding: 12px 32px;
-  border: 3px solid #CD06FF;
+  border: 3px solid var(--purple-color);
   border-radius: 10px;
   transition-duration: 400ms;
 }
 
 .menu__button:hover,
 .menu__button:focus {
-  border: 3px solid #6C0287;
+  border: 3px solid var(--purple-hover);
   border-radius: 10px;
-  background-color: #6C0287;
+  background-color: var(--purple-hover);
 }
 
 .menu__button:active {
-  border: 3px solid #640AA3;
-  background-color: #640AA3;
+  border: 3px solid var(--purple-active);
+  background-color: var(--purple-active);
 }

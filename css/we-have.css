@@ -1,3 +1,7 @@
+.we-have {
+  padding-bottom: 120px;
+}
+
 .we-have__title {
   padding-inline: 150px;
   margin-bottom: 40px;
@@ -33,9 +37,17 @@
   transition-duration: 400ms;
 }
 
+.we-have__item_down {
+  transform: translateY(70px);
+}
+
 .we-have__item:hover {
   transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -o-transform: scale(1.1);
   -moz-transform: scale(1.1);
+}
+
+.we-have__item_down:hover {
+  transform: translateY(70px) scale(1.1);
 }

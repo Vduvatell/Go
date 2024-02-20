@@ -47,7 +47,7 @@
 
 .novelty__span {
   font-weight: 900;
-  color: #CD06FF;
+  color: var(--purple-color);
 }
 
 .novelty__span1 {
@@ -69,13 +69,13 @@
 .banner__order {
   display: inline-block;
   margin-right: 165px;
-  color: #fff;
+  color: var(--main-color);
   font-size: 26px;
   font-weight: 700;
   text-transform: uppercase;
   padding: 25px 69px;
   border-radius: 10px;
-  background-color: #6C0287;
+  background-color: var(--purple-hover);
   transition-duration: 400ms;
 }
 
@@ -85,7 +85,7 @@
 }
 
 .banner__order:active {
-  background-color: #640AA3;
+  background-color: var(--purple-active);
 }
 
 .tittle__down-arrow {
@@ -94,23 +94,23 @@
 }
 
 .down-arrow-svg {
-  color: #fff;
-  border: 1px solid #fff;
+  color: var(--main-color);
+  border: 1px solid var(--main-color);
   border-radius: 50%;
   transition-duration: 400ms;
 }
 
 .tittle__down-arrow:hover .down-arrow-svg{
-  color: #6C0287;
-  background-color: #fff;
+  color: var(--purple-hover);
+  background-color: var(--main-color);
 }
 
 .tittle__down-arrow:focus{
-  outline: 1px solid #CD06FF;
+  outline: 1px solid var(--purple-color);
 }
 
 .tittle__down-arrow:active .down-arrow-svg{
-  color: #fff;
-  background-color: #CD06FF;
-  border: 1px solid #CD06FF;
+  color: var(--main-color);
+  background-color: var(--purple-color);
+  border: 1px solid var(--purple-color);
 }

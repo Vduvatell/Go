@@ -59,7 +59,7 @@
 
 .contacts__address-href {
   text-decoration: none;
-  color: #fff;
+  color: var(--main-color);
 }
 
 .contacts__address_moscow {
@@ -72,14 +72,14 @@
 }
 
 .contacts__logo-link:hover {
-  color: #EADEED;
+  color: var(--gray-hover);
 }
 
 .contacts__logo-link:focus {
-  color: #EADEED;
-  outline: 1px solid #CD06FF;
+  color: var(--gray-hover);
+  outline: 1px solid var(--purple-color);
 }
 
 .contacts__logo-link:active {
-  color: #CD06FF;
+  color: var(--purple-color);
 }

@@ -1,0 +1,11 @@
+:root {
+  --main-color: #fff;
+  --purple-color: #CD06FF;
+  --gray-hover: #EADEED;
+  --purple-hover: #6C0287;
+  --purple-active: #640AA3;
+}
+
+.reviews {
+  --profile-gradient: radial-gradient(50.00% 50.00% at 50% 50%,rgba(196, 196, 196, 0),rgba(108, 2, 135, 0.5) 100%);
+}
