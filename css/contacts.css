@@ -1,4 +1,5 @@
 .contacts {
+  padding-top: 30px;
   font-weight: 700;
 }
 
@@ -7,7 +8,7 @@
   font-size: 40px;
   line-height: 50px;
   text-transform: uppercase;
-  margin-bottom: 54px;
+  margin-bottom: 47px;
 }
 
 .contacts__wrapper {
@@ -32,28 +33,25 @@
 }
 
 .contacts__address-city {
-  margin-bottom: 38px;
+  margin-bottom: 40px;
 }
 
 .contacts__address-number {
-  margin-bottom: 11px;  
+  margin-bottom: 7px;  
 }
 
 .contacts__address-mail {
   margin-bottom: 39px;
 }
 
-.contacts__logo-inner{
-  display: inline-block;
-}
-
-.contacts__logo-inner:not(:last-child) {
-  margin-right: 21px;
+.contacts__logo {
+  display: flex;
+  gap: 26px;
 }
 
 .contacts__address-img {
   display: inline-block;
-  margin-right: 30px;
+  margin-right: 18px;
   vertical-align: middle;
 }
 

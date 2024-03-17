@@ -1,5 +1,5 @@
 .blank {
-  margin-bottom: 40px;
+  margin-bottom: 45px;
   justify-content: center;
   gap: 50px;
 }
@@ -19,32 +19,19 @@
 }
 
 .time__area {
-  width: 134px;
-  height: 52px;
+  width: 134px;   
 }
 
-.people__area {
-  width: 300px;
-  height: 52px;
-}
-
+.name__area,
 .name__info {
   width: 280px;
 }
 
+.data__area,
+.people__area,
 .data__info,
 .time__info {
   width: 300px;
-}
-
-.name__area {
-  width: 280px;
-  height: 52px;
-}
-
-.data__area {
-  width: 300px;
-  height: 52px;
 }
 
 .info__first-name,
@@ -53,6 +40,7 @@
 }
 
 .order__input {
+  height: 52px;
   border: 2px solid transparent;
   transition-duration: 400ms;
 }

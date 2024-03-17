@@ -1,5 +1,5 @@
 .kit {
-  margin-bottom: 67px;
+  margin-bottom: 59px;
   justify-content: space-around;
 }
 
@@ -19,7 +19,7 @@
   font-size: 24px;
   font-weight: 700;
   line-height: 28px;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 
 .console__text,
@@ -41,7 +41,7 @@
 }
 
 .console__item:not(:last-child) {
-  margin-bottom: 22px;
+  margin-bottom: 17px;
 }
 
 .game__item:not(:last-child) {
