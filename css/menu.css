@@ -18,7 +18,7 @@
   line-height: 50px;
   text-transform: uppercase;
   font-weight: 400;
-  gap: 41px;
+  gap: 40px;
 }
 
 .menu__button {
@@ -43,4 +43,26 @@
 .menu__button:active {
   border: 3px solid var(--purple-active);
   background-color: var(--purple-active);
+}
+
+
+@media (max-width: 1240px) {
+  .menu__list {
+    font-size: 18px;
+    line-height: 22px;
+    gap: 20px;
+  }
+
+  .menu-logo {
+    width: 87px;
+    height: 55px;
+  }
+
+  .menu__button {
+    font-size: 18px;
+    line-height: 24px;
+    padding: 7px 23px 8px;
+    border: 3px solid var(--purple-color);
+    border-radius: 8px;
+  }
 }

@@ -1,5 +1,5 @@
 .kit {
-  margin-bottom: 59px;
+  margin-bottom: 60px;
   justify-content: space-around;
 }
 
@@ -50,4 +50,12 @@
 
 .other__item:not(:last-child) {
   margin-bottom: 24px;
+}
+
+
+
+@media (max-width: 1240px) {
+  .kit__title {
+    margin-bottom: 26px;
+  }
 }

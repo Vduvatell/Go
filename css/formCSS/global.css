@@ -1,4 +1,4 @@
-.order {
+.order__wrapper {
   padding-block: 80px;
   background-color: #440F51;
 }
@@ -58,4 +58,28 @@
 
 .radio-button:focus {
   outline: 1px solid var(--purple-color);
+}
+
+
+@media (max-width: 1240px) {
+  .order__wrapper {
+    padding-block: 60px;
+  }
+
+  .order__title {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 25px;
+  }
+
+  .order__button {
+    margin-right: 0px;
+  }
+
+  .order__button-text {
+    font-size: 18px;
+    line-height: 24px;
+    padding: 13px 45px;
+    width: 254px;
+  }
 }

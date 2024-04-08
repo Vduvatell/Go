@@ -56,3 +56,16 @@
   clip: rect(0 0 0 0);
   transform: scale(0);
 }
+
+
+
+@media (max-width: 1240px) {
+
+  .room__text {
+    flex-basis: 180px;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 10px 20px;
+    border-radius: 6px;
+  }
+}

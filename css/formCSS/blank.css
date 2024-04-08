@@ -1,5 +1,5 @@
 .blank {
-  margin-bottom: 45px;
+  margin-bottom: 40px;
   justify-content: center;
   gap: 50px;
 }
@@ -49,3 +49,24 @@
   border: 2px solid var(--purple-color);
 }
 
+
+
+@media (max-width: 1240px) {
+  .blank {
+    margin-bottom: 50px;
+  }
+
+  .time__info {
+    row-gap: 14px;
+  }
+
+  .name__area,
+  .name__info {
+    width: 251px;
+  }
+
+  .data__area,
+  .data__info {
+    width: 254px;
+  }
+}
